@@ -49,7 +49,6 @@ const footer = document.querySelector("footer");
 const body = document.querySelector("body");
 
 footer.addEventListener("mouseover", () => {
-  console.log(footer);
   body.style.backgroundColor = "lightGreen";
 });
 
